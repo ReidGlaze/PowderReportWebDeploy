@@ -7,10 +7,6 @@
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
-    "ios": {
-      "supportsTablet": true
-    },
     "web": {
       "bundler": "metro",
       "output": "static",
@@ -21,12 +17,11 @@
         "expo-router",
         {
           "origin": "/",
-          "asyncRoutes": true
+          "asyncRoutes": false
         }
       ]
     ],
     "experiments": {
-      "typedRoutes": true,
       "tsconfigPaths": true
     }
   }
