@@ -20,9 +20,6 @@
           "asyncRoutes": false
         }
       ]
-    ],
-    "experiments": {
-      "tsconfigPaths": true
-    }
+    ]
   }
 }
